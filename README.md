@@ -8,17 +8,17 @@ This repository houses both source code and technical engineering journals docum
 ## Repository Structure
 
 * `lib/math/` - Mathematical primitives (`abs`, `dist`, etc.)
-* `lib/mem/` - Memory management implementations (`memcpy`, `memmove`, `memset`, `memcmp`)[cite: 1]
+* `lib/mem/` - Memory management implementations (`memcpy`, `memmove`, `memset`, `memcmp`)
 * `lib/string/` - String manipulation implementations (`strlen`, `strchr`, `strcmp`, `strcpy`, `strcat`)
 * `notes/` - Engineering journals and development logs
 
 ## Implemented Memory & String Primitives
 
-### Memory Operations (`lib/mem/mem.h`)[cite: 1]
-* `memcpy` - High-speed front-to-back byte copy for non-overlapping regions[cite: 1].
-* `memmove` - Overlap-safe memory copy using directional pointer checks (`d < s` vs backward copy loops) to prevent data corruption[cite: 1].
-* `memset` - Broadcasts a cast `unsigned char` value across a raw memory block[cite: 1].
-* `memcmp` - Lexicographical byte-by-byte comparison returning signed deltas[cite: 1].
+### Memory Operations (`lib/mem/mem.h`)
+* `memcpy` - High-speed front-to-back byte copy for non-overlapping regions.
+* `memmove` - Overlap-safe memory copy using directional pointer checks (`d < s` vs backward copy loops) to prevent data corruption.
+* `memset` - Broadcasts a cast `unsigned char` value across a raw memory block.
+* `memcmp` - Lexicographical byte-by-byte comparison returning signed deltas.
 
 ## Engineering Notes & Takeaways
 
